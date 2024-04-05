@@ -4,16 +4,16 @@
 
 #define XXX &none
 
-// / { \
-//      behaviors { \
-//                      m_td0: tap_dance_mod_tap_gaming_num1_2 { \
-//                      compatible = "zmk,behavior-tap-dance"; \
-//                      #binding-cells = <0>; \
-//                      tapping-term-ms = <225>; \
-//                      bindings = <&mt N1 Q>, <&kp N2>; \
-//                      }; \
-//              }; \
-// };
+/ { \
+     behaviors { \
+                     m_td0: tap_dance_mod_tap_gaming_num1_2 { \
+                     compatible = "zmk,behavior-tap-dance"; \
+                     #binding-cells = <0>; \
+                     tapping-term-ms = <225>; \
+                     bindings = <&mt N1 Q>, <&kp N2>; \
+                     }; \
+             }; \
+};
 
 #define MIRYOKU_LAYERMAPPING_BASE( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
@@ -60,11 +60,11 @@ XXX  K20  K21  K22  K23  K24                 K25  K26  K27  K28  K29  XXX \
 // U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,      \
 // U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
-// #define MIRYOKU_LAYER_GAME \
-//           &kp TAB,        &m_td0, &kp W, &mt N3 E, &mt N4 R, &kp Y, &kp U,  &kp I,     &kp O,   &kp P, \
-//              &kp LSHFT,      &kp A, &kp S, &kp D, &kp F,   &kp H, &kp J,  &kp K,     &kp L,  &kp SEMI, \
-//              &kp LCTRL,      &kp Z, &kp X, &kp C, &kp V,   &kp N, &kp M,  &kp COMMA, &kp DOT, &kp FSLH, \
-// U_NP,              U_NP,           &kp LALT, &kp LCTRL, &kp SPACE,   &kp RET, &mo 1, &mo 2, U_NP, U_NP
+#define MIRYOKU_LAYER_GAME \
+&kp TAB,        &m_td0, &kp W, &mt N3 E, &mt N4 R, &kp Y, &kp U,  &kp I,     &kp O,   &kp P, \
+&kp LSHFT,      &kp A, &kp S, &kp D, &kp F,   &kp H, &kp J,  &kp K,     &kp L,  &kp SEMI, \
+&kp LCTRL,      &kp Z, &kp X, &kp C, &kp V,   &kp N, &kp M,  &kp COMMA, &kp DOT, &kp FSLH, \
+U_NP,              U_NP,           &kp LALT, &kp LCTRL, &kp SPACE,   &kp RET, &mo 1, &mo 2, U_NP, U_NP
 
 
 #define MIRYOKU_LAYER_LIST \
@@ -80,7 +80,7 @@ MIRYOKU_X(SYM,    "Sym") \
 MIRYOKU_X(FUN,    "Fun") \
 MIRYOKU_X(GAME,   "Game")
 
-// #define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
+#define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 
 #define U_BASE   0
 #define U_EXTRA  1
