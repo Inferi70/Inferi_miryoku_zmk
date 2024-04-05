@@ -18,19 +18,18 @@
 &kp TAB,          &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,       &kp BSPC            \
 &kp LSHFT,        U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, SEMI),      &kp SQT   \
 &kp LCTRL,        U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH), &kp ESC   \
-U_NP,          U_NP,              U_NP,              U_LT(U_MEDIA, ESC), U_LT(U_NAV, TAB), U_LT(U_MOUSE, SPACE),     U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP,      U_NP
+                                                 U_LT(U_MEDIA, ESC), U_LT(U_NAV, TAB), U_LT(U_MOUSE, SPACE),     U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL)
 
 #define MIRYOKU_LAYER_NAV \
 U_NA, U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &u_to_U_GAME,       U_CPY,             U_PST,             &kp UP,            U_RDO,             U_UND,   U_NA,        \
 U_NA, &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp RIGHT,         U_CUT,    U_NA,        \
 U_NA, U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,  U_NA,        \
-                                           U_NP, U_NP, U_NP, U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL, U_NP, U_NP, U_NP
-
+                                            U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL
 #define MIRYOKU_LAYER_GAME \
 &kp ESC, &kp TAB,   &m_td0, &kp W, &mt N3 E, &mt N4 R, &kp Y, &kp U,  &kp I,     &kp O,   &kp P,    &kp BSPC, \
 &kp G, &kp LSHFT, &kp A, &kp S, &kp D, &kp F,   &kp H, &kp J,  &kp K,     &kp L,  &kp SEMI, &kp SQT, \
 &kp B, &kp LCTRL, &kp Z, &kp X, &kp C, &kp V,   &kp N, &kp M,  &kp COMMA, &kp DOT, &kp FSLH, &kp ESC, \
-          U_NP, U_NP, U_NP, &kp LALT, &kp LCTRL, &kp SPACE,   &kp RET, &mo 1, &mo 2, U_NP, U_NP, U_NP
+                  &kp LALT, &kp LCTRL, &kp SPACE,   &kp RET, &mo 1, &mo 2
 
 // // Direct custom layer access
 // #define MIRYOKU_LAYOUTMAPPING_CORNE( \
