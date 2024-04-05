@@ -15,7 +15,7 @@
 //              }; \
 // };
 #define MIRYOKU_LAYER_GAME \
-&kp TAB,        &m_td0, &kp W, &mt N3 E, &mt N4 R, &kp Y, &kp U,  &kp I,     &kp O,   &kp P, \
+&kp TAB,        &mt N1 Q, &kp W, &mt N3 E, &mt N4 R, &kp Y, &kp U,  &kp I,     &kp O,   &kp P, \
 &kp LSHFT,      &kp A, &kp S, &kp D, &kp F,   &kp H, &kp J,  &kp K,     &kp L,  &kp SEMI, \
 &kp LCTRL,      &kp Z, &kp X, &kp C, &kp V,   &kp N, &kp M,  &kp COMMA, &kp DOT, &kp FSLH, \
 U_NP,              U_NP,           &kp LALT, &kp LCTRL, &kp SPACE,   &kp RET, &mo 1, &mo 2, U_NP, U_NP
