@@ -15,33 +15,22 @@
 };
 
 #define MIRYOKU_LAYER_BASE \
-&kp TAB,          &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,       &kp BSPC            \
-&kp LSHFT,        U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, SEMI),      &kp SQT   \
-&kp LCTRL,        U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH), &kp ESC   \
+&kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P, \
+U_MT(LGUI, A),     U_MT(LALT, S),     U_MT(LCTRL, D),    U_MT(LSHFT, F),    &kp G,             &kp H,             U_MT(LSHFT, J),    U_MT(LCTRL, K),    U_MT(LALT, L),     U_MT(LGUI, SQT),\
+U_LT(U_BUTTON, Z), U_MT(RALT, X),     &kp C,             &kp V,             &kp B,             &kp N,             &kp M,             &kp COMMA,         U_MT(RALT, DOT),   U_LT(U_BUTTON, SLASH),\
                                                  U_LT(U_MEDIA, ESC), U_LT(U_NAV, TAB), U_LT(U_MOUSE, SPACE),     U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL)
 
 #define MIRYOKU_LAYER_NAV \
-U_NA, U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &u_to_U_GAME,       U_CPY,             U_PST,             &kp UP,            U_RDO,             U_UND,   U_NA,        \
-U_NA, &kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp RIGHT,         U_CUT,    U_NA,        \
-U_NA, U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,  U_NA,        \
+U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      &u_to_U_GAME,       U_CPY,             U_PST,             &kp UP,            U_RDO,             U_UND,       \
+&kp LGUI,          &kp LALT,          &kp LCTRL,         &kp LSHFT,         U_NA,              &u_caps_word,      &kp LEFT,          &kp DOWN,          &kp RIGHT,         U_CUT,        \
+U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,              &kp INS,           &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,      \
                                             U_NA,              U_NA,              U_NA,              &kp RET,           &kp BSPC,          &kp DEL
 #define MIRYOKU_LAYER_GAME \
-&kp ESC, &kp TAB,   &m_td0, &kp W, &mt N3 E, &mt N4 R, &kp Y, &kp U,  &kp I,     &kp O,   &kp P,    &kp BSPC, \
-&kp G, &kp LSHFT, &kp A, &kp S, &kp D, &kp F,   &kp H, &kp J,  &kp K,     &kp L,  &kp SEMI, &kp SQT, \
-&kp B, &kp LCTRL, &kp Z, &kp X, &kp C, &kp V,   &kp N, &kp M,  &kp COMMA, &kp DOT, &kp FSLH, &kp ESC, \
-                  &kp LALT, &kp LCTRL, &kp SPACE,   &kp RET, &mo 1, &mo 2
+          &kp TAB,        &m_td0, &kp W, &mt N3 E, &mt N4 R, &kp Y, &kp U,  &kp I,     &kp O,   &kp P, \
+             &kp LSHFT,      &kp A, &kp S, &kp D, &kp F,   &kp H, &kp J,  &kp K,     &kp L,  &kp SEMI, \
+             &kp LCTRL,      &kp Z, &kp X, &kp C, &kp V,   &kp N, &kp M,  &kp COMMA, &kp DOT, &kp FSLH, \
+U_NP,              U_NP,           &kp LALT, &kp LCTRL, &kp SPACE,   &kp RET, &mo 1, &mo 2, U_NP, U_NP
 
-// Direct custom layer access
-#define MIRYOKU_LAYOUTMAPPING_CORNE( \
-K00, K01, K02, K03, K04, K05,                    K06, K07, K08, K09, K10, K11, \
-K12, K13, K14, K15, K16, K17,                    K18, K19, K20, K21, K22, K23, \
-K24, K25, K26, K27, K28, K29,                    K30, K31, K32, K33, K34, K35, \
-               K36, K37, K38,                    K39, K40, K41 \
-) \
-K00, K01, K02, K03, K04, K05,                    K06, K07, K08, K09, K10, K11, \
-K12, K13, K14, K15, K16, K17,                    K18, K19, K20, K21, K22, K23, \
-K24, K25, K26, K27, K28, K29,                    K30, K31, K32, K33, K34, K35, \
-               K36, K37, K38,                    K39, K40, K41 
 
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
