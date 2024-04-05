@@ -1,6 +1,6 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
-#if !defined (MIRYOKU_LAYOUTMAPPING_CORNE)
+#if defined (KEYBOARD_crkbd)
 
 #define XXX &none
 
