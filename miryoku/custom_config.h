@@ -31,27 +31,27 @@ U_NP,              U_NP,           &kp LALT, &kp LCTRL, &kp SPACE,   &kp RET, &m
 &kp LCTRL  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp ESC \
                K32  K33  K34       K35  K36  K37
 
-#define MIRYOKU_LAYERMAPPING_NAV( \
-     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
-     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
-     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
-     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
-) \
-XXX  K00  K01  K02  K03  &u_to_U_GAME        K05  K06  K07  K08  K09  XXX \
-XXX  K10  K11  K12  K13  K14                 K15  K16  K17  K18  K19  XXX \
-XXX  K20  K21  K22  K23  K24                 K25  K26  K27  K28  K29  XXX \
-               K32  K33  K34                 K35  K36  K37
+// #define MIRYOKU_LAYERMAPPING_NAV( \
+//      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
+//      K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
+//      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
+//      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
+// ) \
+// XXX  K00  K01  K02  K03  &u_to_U_GAME        K05  K06  K07  K08  K09  XXX \
+// XXX  K10  K11  K12  K13  K14                 K15  K16  K17  K18  K19  XXX \
+// XXX  K20  K21  K22  K23  K24                 K25  K26  K27  K28  K29  XXX \
+//                K32  K33  K34                 K35  K36  K37
 
-#define MIRYOKU_LAYERMAPPING_GAME( \
-     K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
-     K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
-     K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
-     N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
-) \
-&kp ESC &kp TAB  &kp Q &kp W &kp E &kp R                 K05  K06  K07  K08  K09  &kp BSPC \
-&kp G &kp LSHFT  &kp A &kp S &kp D &kp F                 K15  K16  K17  K18  K19  &kp SQT  \
-%kp B &kp LCTRL  &kp Z &kp X &kp C &kp V                 K25  K26  K27  K28  K29  &kp ESC \
-               &kp LALT &kp LCTRL &kp SPACE              K35  K36  K37
+// #define MIRYOKU_LAYERMAPPING_GAME( \
+//      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
+//      K10, K11, K12, K13, K14,      K15, K16, K17, K18, K19, \
+//      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
+//      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
+// ) \
+// &kp ESC &kp TAB  &kp Q &kp W &kp E &kp R                 K05  K06  K07  K08  K09  &kp BSPC \
+// &kp G &kp LSHFT  &kp A &kp S &kp D &kp F                 K15  K16  K17  K18  K19  &kp SQT  \
+// %kp B &kp LCTRL  &kp Z &kp X &kp C &kp V                 K25  K26  K27  K28  K29  &kp ESC \
+//                &kp LALT &kp LCTRL &kp SPACE              K35  K36  K37
 
 // #define MIRYOKU_LAYER_BASE \
 // &kp Q,             &kp W,             &kp E,             &kp R,             &kp T,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P, \
