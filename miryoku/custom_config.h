@@ -38,10 +38,8 @@ XXX  K20  K21  K22  K23  K24                 K25  K26  K27  K28  K29  XXX \
 ) \
 &kp ESC &kp TAB    &mt N1 Q  &kp W    &mt N3 E   &mt N4 R              K05  K06  K07  K08  K09  &kp BSPC \
 &kp G   &kp LSHFT  &kp A   &kp S      &kp D      &kp F                 K15  K16  K17  K18  K19  &kp SQT  \
-%kp B   &kp LCTRL  &kp Z   &kp X      &kp C      &kp V                 K25  K26  K27  K28  K29  &kp ESC \
+&kp B   &kp LCTRL  &kp Z   &kp X      &kp C      &kp V                 K25  K26  K27  K28  K29  &kp ESC \
                            &kp LALT   &kp LCTRL  &kp SPACE             K35  K36  K37
-
-#define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
