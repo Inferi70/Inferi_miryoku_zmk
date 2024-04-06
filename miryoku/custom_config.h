@@ -1,15 +1,15 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-/ { \
-     behaviors { \
-                     m_td0: tap_dance_mod_tap_gaming_num1_2 { \
-                     compatible = "zmk,behavior-tap-dance"; \
-                     #binding-cells = <0>; \
-                     tapping-term-ms = <225>; \
-                     bindings = <&mt N1 Q>, <&kp N2>; \
-                     }; \
-             }; \
+/ {
+     behaviors {
+                     m_td0: tap_dance_mod_tap_gaming_num1_2 {
+                     compatible = "zmk,behavior-tap-dance";
+                     #binding-cells = <0>;
+                     tapping-term-ms = <225>;
+                     bindings = <&mt N1 Q>, <&kp N2>;
+                     };
+             };
 };
 
 #define MIRYOKU_LAYER_GAME \
