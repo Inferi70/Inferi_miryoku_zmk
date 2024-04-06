@@ -1,5 +1,6 @@
 // Copyright 2022 Manna Harbour
 // https://github.com/manna-harbour/miryoku
+#include "../miryoku/custom_config.h"
 
 #if !defined (MIRYOKU_LAYOUTMAPPING_CORNE)
 
