@@ -1,12 +1,13 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
-// #define MIRYOKU_LAYER_GAME \
-// &kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
-// &kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SEMI,          \
-// &kp LCTRL,         &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp FSLH,          \
-// U_NP,              U_NP,              &kp LALT,          &kp LCTRL,         &kp SPACE,         &kp RET,           &mo 1,             &mo 2,             U_NP,              U_NP
+#define MIRYOKU_LAYER_GAME \
+&kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
+&kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SEMI,          \
+&kp LCTRL,         &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp FSLH,          \
+U_NP,              U_NP,              &kp LALT,          &kp LCTRL,         &kp SPACE,         &kp RET,           &mo 1,             &mo 2,             U_NP,              U_NP
 
 #define XXX &none
+#define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 
 #define MIRYOKU_LAYERMAPPING_BASE(\
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
@@ -36,12 +37,10 @@ XXX  K20  K21  K22  K23  K24                 K25  K26  K27  K28  K29  XXX \
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-&kp ESC &kp TAB    &mt N1 Q  &kp W    &mt N3 E   &mt N4 R              &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             &kp BSPC \
-&kp G   &kp LSHFT  &kp A   &kp S      &kp D      &kp F                 &kp H,             &kp J,             &kp K,             &kp L,             &kp SEMI,          &kp SQT  \
-%kp B   &kp LCTRL  &kp Z   &kp X      &kp C      &kp V                 &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp FSLH,          &kp ESC \
-                           &kp LALT   &kp LCTRL  &kp SPACE             &kp RET,           &kp X,             &kp X
-
-// #define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
+&kp ESC &kp TAB    &mt N1 Q  &kp W      &mt N3 E   &mt N4 R            &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             &kp BSPC \
+&kp G   &kp LSHFT  &kp A     &kp S      &kp D      &kp F               &kp H,             &kp J,             &kp K,             &kp L,             &kp SEMI,          &kp SQT  \
+%kp B   &kp LCTRL  &kp Z     &kp X      &kp C      &kp V               &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp FSLH,          &kp ESC \
+                             &kp LALT   &kp LCTRL  &kp SPACE           &kp RET,           &kp X,             &kp X
 
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
