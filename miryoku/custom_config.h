@@ -1,5 +1,17 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
+
+/ { \
+     behaviors { \
+                     m_td0: tap_dance_mod_tap_gaming_num1_2 { \
+                     compatible = "zmk,behavior-tap-dance"; \
+                     #binding-cells = <0>; \
+                     tapping-term-ms = <225>; \
+                     bindings = <&mt N1 Q>, <&kp N2>; \
+                     }; \
+             }; \
+};
+
 #define MIRYOKU_LAYER_GAME \
 &kp TAB,           &kp Q,             &kp W,             &kp E,             &kp R,             &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             \
 &kp LSHFT,         &kp A,             &kp S,             &kp D,             &kp F,             &kp H,             &kp J,             &kp K,             &kp L,             &kp SEMI,          \
@@ -17,7 +29,7 @@ U_NP,              U_NP,              &kp LALT,          &kp LCTRL,         &kp 
 &kp TAB    K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC \
 &kp LSHFT  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp SQT  \
 &kp LCTRL  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp ESC  \
-                     K32  K33  K34       K35  K36  K37
+                     U_LT(U_MEDIA, ESC) U_LT(U_NAV, TAB) U_LT(U_MOUSE, SPACE)       K35  K36  K37
 
 #define MIRYOKU_LAYERMAPPING_NAV( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
@@ -36,7 +48,7 @@ XXX  K20  K21  K22  K23  K24                 K25  K26  K27  K28  K29  XXX \
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-&kp ESC &kp TAB    &mt N1 Q  &kp W    &mt N3 E   &mt N4 R              K05  K06  K07  K08  K09  &kp BSPC \
+&kp ESC &kp TAB    &m_td0  &kp W    &mt N3 E   &mt N4 R              K05  K06  K07  K08  K09  &kp BSPC \
 &kp G   &kp LSHFT  &kp A   &kp S      &kp D      &kp F                 K15  K16  K17  K18  K19  &kp SQT  \
 &kp B   &kp LCTRL  &kp Z   &kp X      &kp C      &kp V                 K25  K26  K27  K28  K29  &kp ESC \
                            &kp LALT   &kp LCTRL  &kp SPACE             K35  K36  K37
