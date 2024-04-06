@@ -41,7 +41,7 @@ XXX  K20  K21  K22  K23  K24                 K25  K26  K27  K28  K29  XXX \
 %kp B   &kp LCTRL  &kp Z   &kp X      &kp C      &kp V                 K25  K26  K27  K28  K29  &kp ESC \
                            &kp LALT   &kp LCTRL  &kp SPACE             K35  K36  K37
 
-#define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
+// #define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 
 #define MIRYOKU_LAYER_LIST \
 MIRYOKU_X(BASE,   "Base") \
