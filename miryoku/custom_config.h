@@ -37,7 +37,7 @@ XXX  K20  K21  K22  K23  K24                 K25  K26  K27  K28  K29  XXX \
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-&kp ESC &kp TAB    &mt N1 Q  &kp W      &mt N3 E   &mt N4 R            &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             &kp BSPC \
+&kp ESC &kp TAB    &kp N1    &kp W      &kp N3     &kp N4              &kp Y,             &kp U,             &kp I,             &kp O,             &kp P,             &kp BSPC \
 &kp G   &kp LSHFT  &kp A     &kp S      &kp D      &kp F               &kp H,             &kp J,             &kp K,             &kp L,             &kp SEMI,          &kp SQT  \
 %kp B   &kp LCTRL  &kp Z     &kp X      &kp C      &kp V               &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp FSLH,          &kp ESC \
                              &kp LALT   &kp LCTRL  &kp SPACE           &kp RET,           &kp X,             &kp X
