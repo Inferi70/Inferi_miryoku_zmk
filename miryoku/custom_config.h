@@ -7,7 +7,7 @@
 U_NP,              U_NP,              &kp LALT,          &kp LCTRL,         &kp SPACE,         &kp RET,           &mo 1,             &mo 2,             U_NP,              U_NP
 
 #define XXX &none
-#define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
+// #define MIRYOKU_LAYERMAPPING_GAME MIRYOKU_MAPPING
 
 #define MIRYOKU_LAYERMAPPING_BASE(\
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
