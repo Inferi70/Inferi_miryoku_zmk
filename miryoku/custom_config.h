@@ -6,17 +6,6 @@
 &kp LCTRL,         &kp Z,             &kp X,             &kp C,             &kp V,             &kp N,             &kp M,             &kp COMMA,         &kp DOT,           &kp FSLH,          \
 U_NP,              U_NP,              &kp LALT,          &kp LCTRL,         &kp SPACE,         &kp RET,           &mo 1,             &mo 2,             U_NP,              U_NP
 
-/ { \
-     behaviors { \
-                     m_td0: tap_dance_mod_tap_gaming_num1_2 { \
-                     compatible = "zmk,behavior-tap-dance"; \
-                     #binding-cells = <0>; \
-                     tapping-term-ms = <225>; \
-                     bindings = <&mt N1 Q>, <&kp N2>; \
-                     }; \
-             }; \
-};
-
 #define XXX &none
 
 #define MIRYOKU_LAYERMAPPING_BASE(\
