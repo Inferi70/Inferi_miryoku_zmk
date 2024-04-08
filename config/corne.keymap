@@ -5,6 +5,14 @@
 #include "../miryoku/mapping/42/corne.h"
 #include "../miryoku/miryoku.dtsi"
 
+#define COMBO(NAME, BINDINGS, KEYPOS) \
+  combo_##NAME { \
+    timeout-ms = <50>; \
+    bindings = <BINDINGS>; \
+    key-positions = <KEYPOS>; \
+    layers = <10>; \
+  };
+
 / {
      behaviors {
                      m_td0: tap_dance_mod_tap_gaming_num1_2 {
@@ -14,12 +22,13 @@
                      bindings = <&mt N1 Q>, <&kp N2>;
                      };
              };
-};
 
-#define COMBO(NAME, BINDINGS, KEYPOS) \
-  combo_##NAME { \
-    timeout-ms = <50>; \
-    bindings = <BINDINGS>; \
-    key-positions = <KEYPOS>; \
-    layers = <10>; \
-  };
+      combos {
+                compatible = "zmk,combos";
+                      
+                COMBO(one, &kp N1, 1 37)
+                COMBO(two, &kp N2, 2 37)
+                COMBO(three, &kp N3, 4 37)
+                COMBO(four, &kp N4, 5 37)
+        };
+};
