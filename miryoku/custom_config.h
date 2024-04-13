@@ -54,9 +54,9 @@ XXX  K20  K21  K22  K23  K24                 K25  K26  K27  K28  K29  XXX \
      K20, K21, K22, K23, K24,      K25, K26, K27, K28, K29, \
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
-&kp TILDE   &kp N1     &kp N2  &kp W    &kp N3   &kp N4              K05  K06  K07  K08  K09  &kp BSPC \
-&kp N5   &kp N6  &kp A   &kp S      &kp D      &kp N7                 K15  K16  K17  K18  K19  &kp SQT  \
-&kp N5   &kp N8  &kp Z   &kp X      &kp C      &kp N9                 K25  K26  K27  K28  K29  &kp ESC \
+&kp TILDE   &kp N1     &kp N2  &kp N3    &kp N4   &kp N5             K05  K06  K07  K08  K09  &kp BSPC \
+&kp N5   &kp N6  &kp N7   &kp N8      &kp N9      &kp N0                 K15  K16  K17  K18  K19  &kp SQT  \
+&kp N5   &kp G  &kp J   &kp I      &kp M      &kp T                 K25  K26  K27  K28  K29  &kp ESC \
                            XXX   &kp LCTRL  &kp SPACE             K35  K36  K37
 
 #define MIRYOKU_LAYER_LIST \
