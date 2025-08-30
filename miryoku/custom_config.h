@@ -22,7 +22,7 @@ U_NP,              U_NP,              &kp LALT,          &kp LCTRL,         &kp 
      N30, N31, K32, K33, K34,      K35, K36, K37, N38, N39 \
 ) \
 &kp TAB    K00  K01  K02  K03  K04       K05  K06  K07  K08  K09  &kp BSPC \
-&kp LSHFT  K10  K11  K12  K13  K14       K15  K16  K17  K18  K19  &kp SQT  \
+&kp LSHFT  K10  K11  K12  K13  K14       K15  K16  K17  K18  &kp SEMI  &kp SQT  \
 &kp LCTRL  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &kp ESC  \
                      U_LT(U_MEDIA, ESC) U_LT(U_NAV, TAB) U_LT(U_MOUSE, SPACE)       K35  K36  K37
 
